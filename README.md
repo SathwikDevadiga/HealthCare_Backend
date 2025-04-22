@@ -15,20 +15,20 @@ This project is a backend system for a healthcare application built using Django
 
 ## ⚙️ Setup Instructions
 
-###1. Clone the Repository
+### 1. Clone the Repository
 
 git clone https://github.com/SathwikDevadiga/healthcare_backend.git
 cd healthcare_backend
 
-###2. Create and Activate Virtual Environment
+### 2. Create and Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # Windows
 # source venv/bin/activate   # macOS/Linux
 
-###3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-###4. Configure Environment Variables
+### 4. Configure Environment Variables
 Create a .env file and add your settings:
 
 SECRET_KEY=your_secret_key
@@ -37,14 +37,14 @@ DB_NAME=your_db_name
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 
-###5. Setup PostgreSQL Database
+### 5. Setup PostgreSQL Database
 Ensure PostgreSQL is running and the database mentioned above exists.
 
-###6. Run Migrations
+### 6. Run Migrations
 python manage.py makemigrations
 python manage.py migrate
 
-###7. Run the Server
+### 7. Run the Server
 python manage.py runserver
 
 

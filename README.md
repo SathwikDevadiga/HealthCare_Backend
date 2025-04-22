@@ -17,7 +17,7 @@ This project is a backend system for a healthcare application built using Django
 
 ###1. Clone the Repository
 
-git clone https://github.com/yourusername/healthcare_backend.git
+git clone https://github.com/SathwikDevadiga/healthcare_backend.git
 cd healthcare_backend
 
 ###2. Create and Activate Virtual Environment
